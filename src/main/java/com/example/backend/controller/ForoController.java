@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/foro")
 public class ForoController {
